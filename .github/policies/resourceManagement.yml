@@ -76,5 +76,37 @@ configuration:
       - addLabel:
           label: OmniSharp
 
+    - description: Close issues opened with incomplete bug template information
+      triggerOnOwnActions: false
+      if:
+      - payloadType: Issues
+      - isAction:
+          action: Opened
+      - bodyContains:
+          pattern: |-
+            Type: <b>Bug</b>
+
+            ## Issue Description ##
+            ## Steps to Reproduce ##
+
+            ## Expected Behavior ##
+
+            ## Actual Behavior ##
+
+
+
+            Extension version: 
+          isRegex: False
+      - not:
+          bodyContains:
+            pattern: |-
+              ### C# log ###
+              <details>
+            isRegex: False
+      then:
+      - addReply:
+          reply: If you are running into problems, please open a new issue and provide the requested information. Thanks!
+      - closeIssue
+
 onFailure: 
 onSuccess:
