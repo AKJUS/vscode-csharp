@@ -83,26 +83,12 @@ configuration:
       - isAction:
           action: Opened
       - bodyContains:
-          pattern: |-
-            Type: <b>Bug</b>
-
-            ## Issue Description ##
-            ## Steps to Reproduce ##
-
-            ## Expected Behavior ##
-
-            ## Actual Behavior ##
-
-
-
-            Extension version: 
-          isRegex: False
+          pattern: "Type: <b>Bug</b>\\s*## Issue Description ##\\s*## Steps to Reproduce ##\\s*## Expected Behavior ##\\s*## Actual Behavior ##\\s*Extension version:\\s*"
+          isRegex: True
       - not:
           bodyContains:
-            pattern: |-
-              ### C# log ###
-              <details>
-            isRegex: False
+            pattern: "### C# log ###\\s*<details>"
+            isRegex: True
       then:
       - addReply:
           reply: If you are running into problems, please open a new issue and provide the requested information. Thanks!
