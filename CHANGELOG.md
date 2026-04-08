@@ -5,10 +5,6 @@
 
 # 2.135.x
 * Update Razor to 10.0.0-preview.26208.5 (PR: [#9162](https://github.com/dotnet/vscode-csharp/pull/9162))
-  * Clean up RewrittenSyntaxTree naming and null handling in DefaultTagHelperResolutionPhase (PR: [#13003](https://github.com/dotnet/razor/pull/13003))
-  * Deferred tag helper lowering: separate resolution from lowering phase (PR: [#12957](https://github.com/dotnet/razor/pull/12957))
-  * Consolidate Edit services, and our two "Generate Method" systems (PR: [#12982](https://github.com/dotnet/razor/pull/12982))
-  * Follow ups to Generate Method (PR: [#12972](https://github.com/dotnet/razor/pull/12972))
   * Support Generate Method code action in Razor and C# editors (PR: [#12960](https://github.com/dotnet/razor/pull/12960))
 
 # 2.134.x
