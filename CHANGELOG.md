@@ -3,6 +3,8 @@
 - Diagnostics related feature requests and improvements [#5951](https://github.com/dotnet/vscode-csharp/issues/5951)
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
+# 2.135.x
+
 # 2.134.x
 * Add setting `dotnet.fileBasedApps.enableAutomaticDiscovery` (PR: [#9096](https://github.com/dotnet/vscode-csharp/pull/9096))
 * Update Roslyn to 5.7.0-1.26203.6 (PR: [#9096](https://github.com/dotnet/vscode-csharp/pull/9096))
