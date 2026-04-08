@@ -4,6 +4,12 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
+* Update Razor to 10.0.0-preview.26208.5 (PR: [#](https://github.com/dotnet/vscode-csharp/pull/))
+  * Clean up RewrittenSyntaxTree naming and null handling in DefaultTagHelperResolutionPhase (PR: [#13003](https://github.com/dotnet/razor/pull/13003))
+  * Deferred tag helper lowering: separate resolution from lowering phase (PR: [#12957](https://github.com/dotnet/razor/pull/12957))
+  * Consolidate Edit services, and our two "Generate Method" systems (PR: [#12982](https://github.com/dotnet/razor/pull/12982))
+  * Follow ups to Generate Method (PR: [#12972](https://github.com/dotnet/razor/pull/12972))
+  * Support Generate Method code action in Razor and C# editors (PR: [#12960](https://github.com/dotnet/razor/pull/12960))
 
 # 2.134.x
 * Add setting `dotnet.fileBasedApps.enableAutomaticDiscovery` (PR: [#9096](https://github.com/dotnet/vscode-csharp/pull/9096))
