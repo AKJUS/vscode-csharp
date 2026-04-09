@@ -265,5 +265,6 @@
   "generateOptionsSchema.targetArchitecture.markdownDescription": "[로컬 macOS 디버깅에서만 지원됨]\r\n\r\n디버기의 아키텍처. 이 매개 변수를 설정하지 않으면 자동으로 검색됩니다. 허용되는 값은 `x86_64` 또는 `arm64`입니다.",
   "generateOptionsSchema.targetOutputLogPath.description": "설정하면 대상 애플리케이션이 stdout 및 stderr(예: Console.WriteLine)에 쓰는 텍스트가 지정된 파일에 저장됩니다. 콘솔이 internalConsole 이외의 것으로 설정된 경우 이 옵션은 무시됩니다(예: '${workspaceFolder}/out.txt')",
   "generateOptionsSchema.type.markdownDescription": "디버깅할 코드 형식입니다. .NET Core 디버깅의 경우 `coreclr`, 데스크톱 .NET Framework의 경우 `clr`일 수 있습니다. 데스크톱 프레임워크는 Windows 전용이므로 `clr`은 Windows에서만 작동합니다.",
+  "generateOptionsSchema.useVSDbg.description": "Enable new .NET 9+ Wasm Debugger (preview)",
   "viewsWelcome.debug.contents": "[빌드와 디버그를 위한 C# 자산 생성](command:dotnet.generateAssets)\r\n\r\nlaunch.json에 관해 자세히 알아보려면 [C# 디버깅을 위한 launch.json 구성](https://aka.ms/VSCode-CS-LaunchJson)을 참조하세요."
 }

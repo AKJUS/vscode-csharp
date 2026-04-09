@@ -265,5 +265,6 @@
   "generateOptionsSchema.targetArchitecture.markdownDescription": "[仅在本地 macOS 调试中受支持]\r\n\r\n调试对象的体系结构。除非设置了此参数，否则将自动检测到此参数。允许的值为 \"x86_64\" 或 \"arm64\"。",
   "generateOptionsSchema.targetOutputLogPath.description": "设置后，目标应用程序写入 stdout 和 stderr (例如 Console.WriteLine) 的文本将保存到指定的文件。如果控制台设置为 internalConsole 以外的其他内容，则忽略此选项。例如 \"${workspaceFolder}/out.txt\"",
   "generateOptionsSchema.type.markdownDescription": "键入要调试的代码类型。可以是用于 .NET Core 调试的“coreclr”，也可以是用于桌面 .NET Framework 的“clr”。由于桌面框架仅适用于 Windows，因此“clr”仅适用于 Windows。",
+  "generateOptionsSchema.useVSDbg.description": "Enable new .NET 9+ Wasm Debugger (preview)",
   "viewsWelcome.debug.contents": "[为版本和调试生成 C# 资产](command:dotnet.generateAssets)\r\n\r\n若要了解有关 launch.json 的详细信息，请参阅 [为 C# 调试配置 launch.json](https://aka.ms/VSCode-CS-LaunchJson)。"
 }

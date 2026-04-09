@@ -265,5 +265,6 @@
   "generateOptionsSchema.targetArchitecture.markdownDescription": "[Поддерживается только в локальной отладке macOS]\r\n\r\nАрхитектура отлаживаемого объекта. Будет определяться автоматически, если этот параметр не задан. Допустимые значения: \"x86_64\" или \"arm64\".",
   "generateOptionsSchema.targetOutputLogPath.description": "Если этот параметр настроен, текст, который целевое приложение записывает в stdout и stderr (например, Console.WriteLine), будет сохранен в указанном файле. Этот параметр игнорируется, если для консоли настроено значение, отличное от internalConsole. Например, \"${workspaceFolder}/out.txt\"",
   "generateOptionsSchema.type.markdownDescription": "Введите тип кода для отладки. Может быть либо \"coreclr\" для отладки .NET Core, либо \"clr\" для классической .NET Framework. \"clr\" работает только в Windows, так как классическая платформа предназначена только для Windows.",
+  "generateOptionsSchema.useVSDbg.description": "Enable new .NET 9+ Wasm Debugger (preview)",
   "viewsWelcome.debug.contents": "[Создание ресурсов C# для сборки и отладки](command:dotnet.generateAssets)\r\n\r\nДополнительные сведения о launch.json см. в разделе [Настройка launch.json для отладки C#](https://aka.ms/VSCode-CS-LaunchJson)."
 }
