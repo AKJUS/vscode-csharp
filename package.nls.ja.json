@@ -265,6 +265,6 @@
   "generateOptionsSchema.targetArchitecture.markdownDescription": "[ローカルの macOS デバッグのみでサポート]\r\n\r\nデバッグ対象のアーキテクチャ。このパラメーターを設定しない場合は、自動的に検出されます。可能な値は、 `x86_64` または `arm64`. です。",
   "generateOptionsSchema.targetOutputLogPath.description": "設定すると、ターゲット アプリケーションが StdOut および stderr (例: Console.WriteLine) に書き込むテキストが指定したファイルに保存されます。コンソールが internalConsole 以外に設定されている場合、このオプションは無視されます。例: '${workspaceFolder}/out.txt'",
   "generateOptionsSchema.type.markdownDescription": "デバッグするコードの種類を入力します。.NET Core デバッグの場合は `coreclr`、デスクトップ .NET Framework の場合は `clr` のいずれかを指定できます。デスクトップ フレームワークは Windows 専用であるため、`clr` は Windows でのみ動作します。",
-  "generateOptionsSchema.useVSDbg.description": "Enable new .NET 9+ Wasm Debugger (preview)",
+  "generateOptionsSchema.useVSDbg.description": "新しい .NET 9+ Wasm デバッガー (プレビュー) を有効にします",
   "viewsWelcome.debug.contents": "[ビルドおよびデバッグ用の C# 資産の生成](command:dotnet.generateAssets)\r\n\r\nlaunch.json の詳細については、[C# デバッグ用の launch.json の構成](https://aka.ms/VSCode-CS-LaunchJson). を参照してください。"
 }
