@@ -4,6 +4,8 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
+* Update Razor to 10.0.0-preview.26208.5 (PR: [#9162](https://github.com/dotnet/vscode-csharp/pull/9162))
+  * Support Generate Method code action in Razor and C# editors (PR: [#12960](https://github.com/dotnet/razor/pull/12960))
 
 # 2.134.x
 * Add setting `dotnet.fileBasedApps.enableAutomaticDiscovery` (PR: [#9096](https://github.com/dotnet/vscode-csharp/pull/9096))
