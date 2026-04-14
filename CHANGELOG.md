@@ -4,7 +4,7 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
-* Update Roslyn to 5.7.0-1.26213.1 (PR: [#](https://github.com/dotnet/vscode-csharp/pull/))
+* Update Roslyn to 5.7.0-1.26213.1 (PR: [#9188](https://github.com/dotnet/vscode-csharp/pull/9188))
   * Fix devkit hot reload (PR: [#83157](https://github.com/dotnet/roslyn/pull/83157))
   * Fix Call Hierarchy missing interface implementation category for overrides (PR: [#83132](https://github.com/dotnet/roslyn/pull/83132))
   * Skip unmappable source-generated document edits in rename (PR: [#83080](https://github.com/dotnet/roslyn/pull/83080))
