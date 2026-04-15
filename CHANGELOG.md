@@ -3,6 +3,8 @@
 - Diagnostics related feature requests and improvements [#5951](https://github.com/dotnet/vscode-csharp/issues/5951)
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
+# 2.136.x
+
 # 2.135.x
 * Bump lodash from 4.17.23 to 4.18.1 (PR: [#9152](https://github.com/dotnet/vscode-csharp/pull/9152))
 * Adding changes to support use monovsdbg to debug wasm apps. (PR: [#7220](https://github.com/dotnet/vscode-csharp/pull/7220))
