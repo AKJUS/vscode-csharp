@@ -4,6 +4,8 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
+* Bump lodash from 4.17.23 to 4.18.1 (PR: [#9152](https://github.com/dotnet/vscode-csharp/pull/9152))
+* Adding changes to support use monovsdbg to debug wasm apps. (PR: [#7220](https://github.com/dotnet/vscode-csharp/pull/7220))
 * Update Razor to 10.0.0-preview.26208.5 (PR: [#9162](https://github.com/dotnet/vscode-csharp/pull/9162))
   * Support Generate Method code action in Razor and C# editors (PR: [#12960](https://github.com/dotnet/razor/pull/12960))
 
