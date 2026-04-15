@@ -4,6 +4,8 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
+* Bump lodash from 4.17.23 to 4.18.1 (PR: [#9152](https://github.com/dotnet/vscode-csharp/pull/9152))
+* Adding changes to support use monovsdbg to debug wasm apps. (PR: [#7220](https://github.com/dotnet/vscode-csharp/pull/7220))
 * Update Roslyn to 5.7.0-1.26213.1 (PR: [#9188](https://github.com/dotnet/vscode-csharp/pull/9188))
   * Fix devkit hot reload (PR: [#83157](https://github.com/dotnet/roslyn/pull/83157))
   * Fix Call Hierarchy missing interface implementation category for overrides (PR: [#83132](https://github.com/dotnet/roslyn/pull/83132))
