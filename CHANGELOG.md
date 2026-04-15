@@ -4,6 +4,15 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.135.x
+* Update Roslyn to 5.7.0-1.26213.1 (PR: [#9188](https://github.com/dotnet/vscode-csharp/pull/9188))
+  * Fix devkit hot reload (PR: [#83157](https://github.com/dotnet/roslyn/pull/83157))
+  * Fix Call Hierarchy missing interface implementation category for overrides (PR: [#83132](https://github.com/dotnet/roslyn/pull/83132))
+  * Skip unmappable source-generated document edits in rename (PR: [#83080](https://github.com/dotnet/roslyn/pull/83080))
+  * Fix misleading error when `#!` appears anywhere other than the start of the file (PR: [#83112](https://github.com/dotnet/roslyn/pull/83112))
+  * Fix mishandling of multiple output path changes in a single batch (PR: [#83121](https://github.com/dotnet/roslyn/pull/83121))
+  * Add option for import completion commit behavior (PR: [#82916](https://github.com/dotnet/roslyn/pull/82916))
+  * Fixers: Fix to add bounds checks and strip all boundary \r/\n chars (PR: [#83098](https://github.com/dotnet/roslyn/pull/83098))
+  * Add LSP TypeHierarchy Support (PR: [#83011](https://github.com/dotnet/roslyn/pull/83011))
 * Update Razor to 10.0.0-preview.26208.5 (PR: [#9162](https://github.com/dotnet/vscode-csharp/pull/9162))
   * Support Generate Method code action in Razor and C# editors (PR: [#12960](https://github.com/dotnet/razor/pull/12960))
 
