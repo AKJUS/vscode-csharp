@@ -4,6 +4,9 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.136.x
+* Update Razor to 10.0.0-preview.26217.1 (PR: [#9206](https://github.com/dotnet/vscode-csharp/pull/9206))
+  * Fix Watson crash in ToRazorTextDocumentIdentifier when DocumentUri is unparseable (PR: [#13043](https://github.com/dotnet/razor/pull/13043))
+  * Fix NRE in CohostDocumentPullDiagnosticsEndpointBase.GetDiagnosticsAsync (PR: [#13044](https://github.com/dotnet/razor/pull/13044))
 * Update Roslyn to 5.7.0-1.26217.5 (PR: [#9155](https://github.com/dotnet/vscode-csharp/pull/9155))
   * Allow cohost rename in Razor source-generated docs (PR: [#83217](https://github.com/dotnet/roslyn/pull/83217))
   * Allow manual creation of hot reload brokered services in VSCode (PR: [#83082](https://github.com/dotnet/roslyn/pull/83082))
