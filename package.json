@@ -40,7 +40,7 @@
     "workspace"
   ],
   "defaults": {
-    "roslyn": "5.7.0-1.26213.1",
+    "roslyn": "5.7.0-1.26217.5",
     "omniSharp": "1.39.14",
     "razor": "10.0.0-preview.26208.5",
     "razorOmnisharp": "7.0.0-preview.23363.1",
@@ -125,11 +125,7 @@
     "rxjs": "6.6.7",
     "semver": "7.5.4",
     "vscode-html-languageservice": "^5.3.1",
-    "vscode-jsonrpc": "9.0.0-next.10",
-    "vscode-languageclient": "10.0.0-next.18",
-    "vscode-languageserver-protocol": "3.17.6-next.15",
-    "vscode-languageserver-textdocument": "1.0.12",
-    "vscode-languageserver-types": "3.17.6-next.6",
+    "vscode-languageclient": "10.0.0-next.20",
     "yauzl": "3.2.1"
   },
   "devDependencies": {
