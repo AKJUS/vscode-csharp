@@ -4,6 +4,13 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.136.x
+* Update Roslyn to 5.7.0-1.26217.5 (PR: [#9155](https://github.com/dotnet/vscode-csharp/pull/9155))
+  * Allow cohost rename in Razor source-generated docs (PR: [#83217](https://github.com/dotnet/roslyn/pull/83217))
+  * Allow manual creation of hot reload brokered services in VSCode (PR: [#83082](https://github.com/dotnet/roslyn/pull/83082))
+  * Use standard LSP for source generator contents (PR: [#83119](https://github.com/dotnet/roslyn/pull/83119))
+  * Fix restore of misc project for virtual files and older SDKs (PR: [#83172](https://github.com/dotnet/roslyn/pull/83172))
+  * Improve TextLine and line table performance by packing existing data into unused bits (PR: [#83000](https://github.com/dotnet/roslyn/pull/83000))
+  * Restore removed brokered service descriptors for hot reload (PR: [#83184](https://github.com/dotnet/roslyn/pull/83184))
 
 # 2.135.x
 * Bump lodash from 4.17.23 to 4.18.1 (PR: [#9152](https://github.com/dotnet/vscode-csharp/pull/9152))
