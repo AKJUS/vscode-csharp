@@ -4,7 +4,28 @@
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
 import { RoslynLanguageServer } from '../server/roslynLanguageServer';
-import { PartialResultParams, ProtocolRequestType, RequestParam, RequestType } from 'vscode-languageclient';
+import {
+    ParameterStructures,
+    PartialResultParams,
+    ProtocolRequestType,
+    RequestParam,
+    RequestType,
+} from 'vscode-languageclient';
+
+function normalizeParameterStructures(parameterStructures: unknown): ParameterStructures {
+    switch (parameterStructures) {
+        case ParameterStructures.byPosition:
+        case 'byPosition':
+            return ParameterStructures.byPosition;
+        case ParameterStructures.byName:
+        case 'byName':
+            return ParameterStructures.byName;
+        case ParameterStructures.auto:
+        case 'auto':
+        default:
+            return ParameterStructures.auto;
+    }
+}
 
 export class RoslynLanguageServerExport {
     constructor(private _serverInitialized: Promise<RoslynLanguageServer>) {}
@@ -17,7 +38,10 @@ export class RoslynLanguageServerExport {
         const server = await this._serverInitialized;
         // We need to recreate the type parameter to ensure that the prototypes line up. The `RequestType` we receive could have been
         // from a different version.
-        const newType = new RequestType<Params, Response, Error>(type.method, type.parameterStructures);
+        const newType = new RequestType<Params, Response, Error>(
+            type.method,
+            normalizeParameterStructures(type.parameterStructures)
+        );
         return await server.sendRequest(newType, params, token);
     }
 
