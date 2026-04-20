@@ -4,7 +4,7 @@
 - Debug from .csproj and .sln [#5876](https://github.com/dotnet/vscode-csharp/issues/5876)
 
 # 2.136.x
-* Update Razor to 10.0.0-preview.26217.1 (PR: [#](https://github.com/dotnet/vscode-csharp/pull/))
+* Update Razor to 10.0.0-preview.26217.1 (PR: [#9206](https://github.com/dotnet/vscode-csharp/pull/9206))
   * Fix Watson crash in ToRazorTextDocumentIdentifier when DocumentUri is unparseable (PR: [#13043](https://github.com/dotnet/razor/pull/13043))
   * Fix NRE in CohostDocumentPullDiagnosticsEndpointBase.GetDiagnosticsAsync (PR: [#13044](https://github.com/dotnet/razor/pull/13044))
 
