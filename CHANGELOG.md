@@ -21,6 +21,12 @@
   * Fix restore of misc project for virtual files and older SDKs (PR: [#83172](https://github.com/dotnet/roslyn/pull/83172))
   * Improve TextLine and line table performance by packing existing data into unused bits (PR: [#83000](https://github.com/dotnet/roslyn/pull/83000))
   * Restore removed brokered service descriptors for hot reload (PR: [#83184](https://github.com/dotnet/roslyn/pull/83184))
+* Update xamlTools to 18.7.11721.33 (PR: [#9225](https://github.com/dotnet/vscode-csharp/pull/9225))
+  * Fix msvsmon crash during debug session shutdown with XAML Hot Reload enabled (PR: AzDO#728217)
+  * Fix SslStream disposal crash (Issues: [9146](https://github.com/dotnet/vscode-csharp/issues/9146), [9183](https://github.com/dotnet/vscode-csharp/issues/9183), [9175](https://github.com/dotnet/vscode-csharp/issues/9175), PR: AzDO#728722)
+  * Fix XAML Hot Reload error reporting when exceptions originate from indirectly-loaded views (PR: AzDO#729745)
+  * XAML C# Expressions (XEXPR) limited support (PR: AzDO#721767)
+ 
 
 # 2.135.x
 * Bump lodash from 4.17.23 to 4.18.1 (PR: [#9152](https://github.com/dotnet/vscode-csharp/pull/9152))
